@@ -1,0 +1,15 @@
+.bottom-container {
+  background-color: #ee3124;
+  padding: 25px 0 20px 0;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+  text-align: center;
+}
+/* Modify the ba11999eckgorund color */
+.navbar-custom {
+  background-color: #ee3124;
+}
