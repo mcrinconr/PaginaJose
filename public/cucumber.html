@@ -50,6 +50,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="favicon.ico" />
 
     <!-- Font Awesome -->
     <script
@@ -80,9 +81,19 @@
       <!-- Nav Bar -->
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-dark">
-          <a class="navbar-brand" href="">
-            <img id="myImage" src="logo.png" alt="Responsive image" />Computer
-            Vision</a
+          <a class="navbar-brand" href=""
+            ><img
+              id="myImage"
+              src="logo.png"
+              class="rounded title-image"
+              alt="Responsive image"
+            />
+            <div class="computerVision">
+              computer vision
+            </div>
+            <div class="palabra">
+              CUCUMBER
+            </div></a
           >
           <button
             class="navbar-toggler"
@@ -98,7 +109,7 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="mushroom.html">Mushroom</a>
+                <a class="nav-link" href="index.html">Mushroom</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="cucumber.html">Cucumber</a>
@@ -116,7 +127,6 @@
     <!-- Features -->
 
     <section id="features">
-      <h2>Computer Vision Cucumber</h2>
       <div class="row text-center">
         <div class="col-sm-12">
           <img
@@ -135,7 +145,7 @@
             class="btn btn-dark btn-lg download-button"
             onclick="document.getElementById('myImagen').src='cucumberRefresh.png'"
           >
-            <i class="fas fa-redo-alt"></i> Refresh
+            <i class="fas fa-redo-alt"></i> Restart
           </button>
           <button
             type="button"

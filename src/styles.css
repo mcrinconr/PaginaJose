@@ -1,4 +1,8 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+.bottom-container {
+  background-color: #ee3124;
+  padding: 50px 0 20px 0;
+}
+/* Modify the backgorund color */
+.navbar-custom {
+  background-color: #ee3124;
 }
